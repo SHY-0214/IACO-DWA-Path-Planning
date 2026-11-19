@@ -1,0 +1,9 @@
+Category,Parameter Symbol,Physical / Algorithmic Signification,Configured Value
+Baseline Swarm Parameters,m,Population size of parallel agents,50
+,"α, β",Weighting coefficients of pheromone and heuristic factor,"1.0, 5.0"
+,Q,Pheromone baseline intensity gain,100
+IACO Adaptive Parameters,k,Prior path reinforcement gain,2.5
+,γ,Spatial attenuation coefficient of initial pheromone,0.5
+,"Ρmax, ρmin",Upper and lower bounds of adaptive evaporation rate,"0.5, 0.1"
+DWA Kinematic Parameters,"[ν,ω]max","Maximum linear and angular velocity limits (m/s, rad/s)","0.5, 1.2"
+,"[aν,aω]max","Maximum linear and angular acceleration profiles     (m/s2 , rad/s2 )","0.2, 0.5"

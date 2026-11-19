@@ -1,0 +1,10 @@
+setting,seed,success,collision,travelled_m_including_failed,min_sampled_gap_m,simulated_s
+full,42,1,0,45.796506,0.091746,128.20
+disabled_use_A_star_prior,42,0,1,25.922283,-0.008645,71.00
+disabled_use_potential_field,42,1,0,55.375710,0.055134,249.60
+disabled_use_adaptive_evaporation,42,1,0,45.796506,0.091746,128.20
+disabled_use_triangular_pruning,42,1,0,47.931953,0.156489,138.40
+disabled_use_bspline,42,1,0,46.734471,0.078596,135.20
+disabled_use_dynamic_risk,42,1,0,45.803386,0.091746,128.00
+disabled_use_reconnection,42,1,0,45.796506,0.091746,128.20
+disabled_use_failure_recovery,42,1,0,45.796506,0.091746,128.20

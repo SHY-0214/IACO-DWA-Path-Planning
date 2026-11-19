@@ -1,0 +1,11 @@
+Scenario,Algorithm,Collision Count,Success Rate (%),Min. Safety Distance (m),Reconnection Time (s),Max Lateral Deviation (m),Angular Velocity Peak (rad/s),Path Length Increase (%)
+S1,ACO-DWA,2,80,0.12,2.85,0.75,1.18,18.5
+S1,IACO-DWA,0,100,0.35,1.45,0.40,0.85,9.2
+S2,ACO-DWA,1,90,0.18,2.30,0.60,1.15,15.0
+S2,IACO-DWA,0,100,0.40,1.20,0.35,0.80,7.5
+S3,ACO-DWA,3,70,0.10,4.50,0.90,1.20,25.0
+S3,IACO-DWA,0,100,0.30,2.10,0.45,0.95,12.0
+S4,ACO-DWA,4,60,0.08,3.20,0.85,1.20,20.0
+S4,IACO-DWA,0,90,0.25,1.80,0.50,1.05,14.5
+S5,ACO-DWA,5,50,0.05,3.80,1.10,1.20,28.0
+S5,IACO-DWA,1,90,0.22,2.30,0.60,1.10,16.0

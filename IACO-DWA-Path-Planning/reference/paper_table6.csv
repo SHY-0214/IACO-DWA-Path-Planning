@@ -1,0 +1,8 @@
+Metric,Simulation (mean ± std),Physical (mean ± std),Relative Deviation (%),Consistency Conclusion
+Path length (m),47.20 ± 0.85,49.10 ± 1.20,4.03,Highly Consistent
+Travel time (s),118.5 ± 2.50,131.2 ± 3.80,10.72,Acceptable (Actuator delay)
+Lateral error RMS (m),0.035 ± 0.008,0.048 ± 0.012,37.14,Acceptable (Localization noise)
+Angular velocity RMS (rad/s),0.45 ± 0.05,0.52 ± 0.08,15.56,Acceptable (Chassis inertia)
+Min. safety distance (m),0.38 ± 0.04,0.34 ± 0.06,-10.53,Consistent (LiDAR blind spot)
+Reconnection time (s),1.50 ± 0.20,1.85 ± 0.35,23.33,Consistent (Deceleration first)
+Success rate (%),100 ± 0,95 ± 5,-5.00,Highly Consistent

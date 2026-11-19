@@ -1,0 +1,10 @@
+Configuration,Path Length (m),Convergence Iterations,Inflection Count,Collision Rate (%),Min. Safety Distance (m),Reconnection Time (s),Angular Velocity RMS (rad/s)
+Full IACO-DWA,43.26,25,9,0,0.82,1.5,0.45
+w/o A* prior,45.80,38,11,0,0.78,1.75,0.54
+w/o potential & turning,47.50,35,14,0,0.75,1.95,0.63
+w/o adaptive & elite,46.20,40,12,0,0.76,1.85,0.58
+w/o pruning,45.10,25,15,0,0.79,1.80,0.57
+w/o B-spline,44.30,24,12,5,0.72,1.90,0.68
+w/o dynamic risk,44.80,26,10,25,0.50,2.10,0.65
+w/o reconnection,46.50,25,12,8,0.74,3.20,0.60
+w/o failure recovery,44.00,27,10,18,0.65,4.50,0.70

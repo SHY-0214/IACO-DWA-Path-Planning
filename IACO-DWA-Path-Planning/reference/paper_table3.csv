@@ -1,0 +1,10 @@
+Experimental Scenario,Algorithm,Path Length (m),Convergence Iterations,Inflection Count,Execution Time (s),Success Rate (%)
+Scenario A(20×20),ACO,34.32,42,17,2.14,99
+,Ref-ACO,32.86,21,11,1.03,100
+,IACO,29.45,10,5,0.86,100
+Scenario B(25×25),ACO,42.56,52,24,4.35,99
+,Ref-ACO,41.22,29,16,2.12,100
+,IACO,36.82,18,7,1.52,100
+Scenario C(30×30),ACO,51.34,64,35,8.92,98
+,Ref-ACO,49.93,34,20,4.26,99
+,IACO,43.15,25,9,2.84,100

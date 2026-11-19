@@ -1,0 +1,20 @@
+function cfg = params_aco()
+cfg.pop_size = 50;
+cfg.max_iter = 100;
+cfg.alpha = 1;
+cfg.beta = 5;
+cfg.Q = 100;
+cfg.prior_gain = 2.5;
+cfg.spatial_decay = 0.5;
+cfg.rho_max = 0.5;
+cfg.rho_min = 0.1;
+cfg.fixed_rho = 0.3;
+cfg.tau0 = 1;
+cfg.tau_floor = 1e-6;
+cfg.goal_decay = 0.24;
+cfg.turn_cost = 0.8;
+cfg.phi = 4;
+cfg.reward = 1;
+cfg.penalty = 0.5;
+cfg.spline_step = 0.12;
+end

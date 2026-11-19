@@ -1,0 +1,6 @@
+Approach,Global Search (ACO),Trajectory Smoothing,Local Avoidance (DWA),Reconnection Mechanism,Verifiable Advantages (Evidence in this paper)
+ACO,Uniform pheromone; Standard heuristic.,None (Discrete grid path),N/A,N/A,Baseline
+A Algorithm*,Classical heuristic graph search; deterministic shortest path.,None (Discrete grid path).,N/A,N/A,Used merely as a prior in this paper to guide initial pheromone distribution
+Ref-ACO,Improved heuristic strategies.,None (Discrete grid path),N/A,N/A,Shorter path but sharp turns remain
+ACO-DWA,Classical ACO / Optimized ACO.,Waypoint tracking only.,Static distance evaluation.,Nearest waypoint tracking.,"Basic dynamic avoidance, prone to deadlocks"
+IACO-DWA,A* prior initialization; Potential field + turning penalty; Adaptive evaporation + elite strategy.,Triangular pruning + Cubic B-spline (C² continuous).,Dynamic risk penalty (relative velocity).,LoS scanning + explicit deviation thresholds + failure recovery.,Highest search efficiency; Smoothest kinematics; Lowest collision rate; Best physical consistency
